@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    @apply bg-grey-3 font-primary text-base leading-relaxed;
+  }
+  .section {
+    @apply py-[50px] lg:py-[70px];
+  }
+  .title {
+    @apply text-2xl lg:text-[35px] capitalize leading-tight font-semibold mb-4;
+  }
+  .subtitle {
+    @apply text-[18px] lg:text-[20px] leading-relaxed mb-5 lg:mb-9;
+  }
+  .btn1{
+    @apply px-8 py-1 text-white bg-green-600 rounded-md capitalize
+  }
+  .btn2{
+    @apply px-8 py-1 text-black rounded-md hover:bg-green-600 hover:text-white border border-green-600 capitalize
+  }
+  .btn3{
+    @apply text-green-600 border-b border-green-500 capitalize
+  }
+}
+
+
+
